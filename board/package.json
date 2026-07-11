@@ -1,0 +1,24 @@
+{
+  "name": "shipit-board",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mission Control — ws hub + Three.js projector spectator for the Ship It CI/CD prop",
+  "//": "STARTER STUB — the build session owns the final deps/scripts. Server serves a Vite-built Three.js spectator and a ws event hub.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node src/server.js",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7",
+    "vitest": "^2.1.0",
+    "@playwright/test": "^1.48.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "shipit-launchpad",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The learner ship microsite template — build/test/containerize; grows a pipeline across CI/CD 1-4",
+  "//": "STARTER STUB — the build session owns the final deps/scripts. Keep it beginner-simple. `preview` serves the built site on :8080 for the container.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 8080",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^6.0.7",
+    "vitest": "^2.1.0",
+    "@playwright/test": "^1.48.0"
+  }
+}
